@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Memuat model yang sudah dilatih
-model = joblib.load("model_joblib.pkl")
+model = joblib.load("linear_regression_model.pkl")
 
 # Judul aplikasi
 st.title("Prediksi Tagihan Listrik Jakarta")
